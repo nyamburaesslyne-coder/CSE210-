@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-// EXCEEDING REQUIREMENTS:
 // 1. Scripture Library: The program loads a list of multiple scriptures and selects one 
 //    at random to present to the user, providing a varied experience.
 // 2. Smart Hiding Algorithm: The Scripture.HideRandomWords method was designed to 
@@ -89,6 +88,7 @@ public class Reference
 public class Scripture
 {
     private Reference _reference;
+    
     private List<Word> _words;
 
     public Scripture(Reference reference, string text)
